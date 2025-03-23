@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX Giphy Party</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Giphy Party!</h1>
+
+  <!-- Form for Searching GIFs -->
+  <form id="searchForm">
+    <input type="text" id="searchTerm" placeholder="Enter a search term" required>
+    <button type="submit">Search GIF</button>
+  </form>
+
+  <!-- Button to Remove All GIFs -->
+  <button id="removeButton">Remove All GIFs</button>
+
+  <!-- Container for Displaying GIFs -->
+  <div id="gifContainer"></div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
